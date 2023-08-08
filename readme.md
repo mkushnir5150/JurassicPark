@@ -1,6 +1,6 @@
 ## How to run
-* Set up DB tables with `go build setup.go`
-* Run API with `go build main.go`
+* Set up DB tables with `go build cmd/setup.go`
+* Run API with `go build cmd/main.go`
 * Given more time, or preparing for an actual prod environment, I'd want to containerize this to make everything self contained, and allow for easy local dev. Currently this assumes you already have a working MySQL server.
 
 ## Requirements / functionality
